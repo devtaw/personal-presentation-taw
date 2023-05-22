@@ -42,6 +42,7 @@ p {
 .menu a {
   font-size: 1.25rem;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .menu a:hover {
@@ -62,7 +63,7 @@ p {
 }
 
 .dash {
-  border-bottom: 2px solid #c8c8c8;
+  border-bottom: 4px solid #f2f2f2f2;
   padding-bottom: 3rem;
   margin-bottom: 3rem;
 }
@@ -89,4 +90,30 @@ p {
 
 .about-content img {
   width: 300px;
+}
+
+.interests-content {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
+
+.interests-content h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.interests-content ul {
+  font-size: 1.5rem;
+  text-align: justify;
+  list-style: none;
+  padding: 0;
+}
+
+.interests-content ul li {
+  line-height: 2.5rem;
+}
+
+.interests-content img {
+  width: 567px;
 }
