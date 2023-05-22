@@ -117,3 +117,70 @@ p {
 .interests-content img {
   width: 567px;
 }
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.contact-content h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.contact-content img {
+  width: 300px;
+}
+
+.form-box {
+  width: 700px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.text-box input {
+  background-color: #f2f2f2f2;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #6c63ff;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.text-message {
+  margin-top: 1rem;
+}
+
+.text-message textarea {
+  background-color: #f2f2f2f2;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #6c63ff;
+  width: 100%;
+  box-sizing: border-box; /*corrige o problema do padding aumentar o tamanho da textarea*/
+}
+
+.button-box {
+  margin-top: 0.7rem;
+  text-align: right;
+}
+
+.submit-button {
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+  color: #f2f2f2;
+  padding: 0.2rem 1.2rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  opacity: 0.8;
+}
