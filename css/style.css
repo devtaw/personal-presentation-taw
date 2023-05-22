@@ -16,7 +16,7 @@ p {
   background-color: #ffffff;
   width: 64rem;
   margin: 0 auto; /*centraliza a main*/
-  padding: 1.17rem;
+  padding: 2rem 5rem; /*vertical 1.17rem e horizontal 5rem*/
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -58,11 +58,35 @@ p {
 
 .header-content p {
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 .dash {
   border-bottom: 2px solid #c8c8c8;
   padding-bottom: 3rem;
   margin-bottom: 3rem;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
+
+.about-content h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.about-content p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.about-content span {
+  color: #6c63ff;
+}
+
+.about-content img {
+  width: 300px;
 }
