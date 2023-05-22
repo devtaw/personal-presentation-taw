@@ -184,3 +184,14 @@ p {
 .submit-button:hover {
   opacity: 0.8;
 }
+
+.footer-content {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.footer-content p {
+  color: #6c63ff;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
