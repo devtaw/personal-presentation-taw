@@ -1,4 +1,6 @@
+/*Começo das estilizações gerais*/
 * {
+  /*Aplica estilo para todos os elementos*/
   font-family: Inter, sans-serif;
   color: #454545;
 }
@@ -11,21 +13,27 @@ body {
 p {
   margin: 0;
 }
+/*Fim das estilizações gerais*/
 
+/*Começo da estilização da tag main*/
 .main-content {
   background-color: #ffffff;
-  width: 64rem;
-  margin: 0 auto; /*centraliza a main*/
-  padding: 2rem 5rem; /*vertical 1.17rem e horizontal 5rem*/
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 64rem; /*Utilizei unidade de medida rem para torna o texto mais adaptável a vários tamanhos de telas*/
+  margin: 0 auto; /*Centraliza a main*/
+  padding: 2rem 5rem; /*Adiciona 2rem de distância da borda na vertical e 5rem na horizontal*/
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*Adiciona efeito de sombra no elemento*/
 }
+/*Fim da estilização da tag main*/
 
+/*Classe dash adicionada para criar uma separação entre as seções*/
 .dash {
   border-bottom: 4px solid #f2f2f2f2;
   padding-bottom: 3rem;
   margin-bottom: 3rem;
 }
+/*Fim da estilização da classe dash*/
 
+/*Começo da estilização da tag nav*/
 .navbar {
   display: flex;
   flex-direction: row;
@@ -36,26 +44,31 @@ p {
 .navbar .logo {
   width: 250px;
 }
+/*Fim da estilização da tag nav*/
 
+/*Classe menu criada para estilizar a lista de links das seções*/
 .menu {
-  list-style: none;
+  list-style: none; /*Define propriedades de estilo da lista (retira os marcadores).*/
   display: flex;
   flex-direction: row;
-  gap: 5rem;
+  gap: 5rem; /*Adiciona espaço entre as colunas*/
   margin: 0;
 }
 
 .menu a {
   font-size: 1.25rem;
-  text-decoration: none;
+  text-decoration: none; /*Define aparência das linhas decorativas no texto (retira sublinhado)*/
   font-weight: bold;
 }
 
 .menu a:hover {
-  font-weight: bold;
+  /*Altera o estilo do elemento ao passar o cursor do mouse em cima dele*/
+  font-weight: bold; /*Define peso da fonte (negrito)*/
   color: #6c63ff;
 }
+/*Fim da estilização da classe menu*/
 
+/*Começo da estilização da tag header*/
 .header-content h1 {
   text-align: center;
   font-size: 2.5rem;
@@ -74,14 +87,16 @@ p {
   justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
-  cursor: pointer;
+  cursor: pointer; /*Define cursor do mouse como um ponteiro em cima do elemento*/
 }
 
 .header-content .social-media img:hover {
-  /*hoover sendo feito na tag img*/
+  /*Aplicação do hover na tag img*/
   opacity: 0.5;
 }
+/*Fim da estilização da tag header*/
 
+/*Começo da estilização da tag section, seção Sobre*/
 .about-content {
   display: flex;
   flex-direction: row;
@@ -105,7 +120,9 @@ p {
 .about-content img {
   width: 300px;
 }
+/*Fim da estilização da tag section, seção Sobre*/
 
+/*Começo da estilização da tag section, seção Interesses*/
 .interests-content {
   display: flex;
   flex-direction: row;
@@ -125,13 +142,15 @@ p {
 }
 
 .interests-content ul li {
-  line-height: 2.5rem;
+  line-height: 2.5rem; /*Usei para configurar a distância entre as linhas dos textos*/
 }
 
 .interests-content img {
   width: 567px;
 }
+/*Fim da estilização da tag section, seção Interesses*/
 
+/*Começo da estilização da tag section, seção Contato*/
 .contact-content {
   display: flex;
   flex-direction: row;
@@ -164,7 +183,7 @@ p {
   border-radius: 1rem;
   border: 1px solid #6c63ff;
   width: 50%;
-  box-sizing: border-box; /*corrige o problema do padding aumentar o tamanho do input*/
+  box-sizing: border-box; /*Resolve o problema do padding aumentar o tamanho dos inputs*/
 }
 
 .text-message {
@@ -177,7 +196,7 @@ p {
   border-radius: 1rem;
   border: 1px solid #6c63ff;
   width: 100%;
-  box-sizing: border-box; /*corrige o problema do padding aumentar o tamanho da textarea*/
+  box-sizing: border-box; /*Resolve o problema do padding aumentar o tamanho da textarea*/
 }
 
 .button-box {
@@ -198,7 +217,9 @@ p {
 .submit-button:hover {
   opacity: 0.8;
 }
+/*Fim da estilização da tag section, seção Contato*/
 
+/*Começo da estilização da tag footer*/
 .footer-content {
   text-align: center;
   margin-top: 5rem;
@@ -209,3 +230,4 @@ p {
   font-weight: bold;
   line-height: 1.8rem;
 }
+/*Fim da estilização da tag footer*/
