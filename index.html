@@ -32,10 +32,10 @@
         </p>
         <div class="social-media">
           <a href="https://www.linkedin.com/in/tawanysimoes/" target="_blank">
-            <img src="images/linkedin-logo.svg" />
+            <img src="images/linkedin-logo.svg" alt="Linkedin Logo" />
           </a>
           <a href="https://github.com/devtaw" target="_blank">
-            <img src="images/github-logo.svg" />
+            <img src="images/github-logo.svg" alt="GitHub Logo" />
           </a>
         </div>
       </header>
@@ -55,10 +55,10 @@
             >.
           </p>
         </div>
-        <img src="images/profile-picture.png" />
+        <img src="images/profile-picture.png" alt="Foto de perfil" />
       </section>
       <section id="section-interests" class="interests-content dash">
-        <img src="images/interests.svg" />
+        <img src="images/interests.svg" alt="Imagem sobre interesses" />
         <div>
           <h2>INTERESSES</h2>
           <ul>
@@ -75,8 +75,22 @@
           <h2>FALE COMIGO</h2>
           <form>
             <div class="text-box">
-              <input type="text" name="name" placeholder="Nome" required />
-              <input type="email" name="email" placeholder="E-mail" required />
+              <input
+                type="text"
+                name="name"
+                placeholder="Nome"
+                required
+                aria-label="Nome"
+                title="Campo para adicionar nome"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+                aria-label="E-mail"
+                title="Campo para adicionar nome e-mail"
+              />
             </div>
             <div class="text-message">
               <textarea
@@ -84,6 +98,8 @@
                 name="message"
                 placeholder="Escreva sua mensagem!"
                 required
+                aria-label="Escreva sua mensagem!"
+                title="Campo para adicionar mensagem"
               ></textarea>
             </div>
             <div class="button-box">
@@ -91,7 +107,7 @@
             </div>
           </form>
         </div>
-        <img src="images/contact.svg" />
+        <img src="images/contact.svg" alt="Imagem de contato" />
       </section>
       <footer class="footer-content">
         <p>Desenvolvido com 💜 por Taw Simões</p>
