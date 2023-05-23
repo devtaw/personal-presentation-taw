@@ -20,6 +20,12 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.dash {
+  border-bottom: 4px solid #f2f2f2f2;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -74,12 +80,6 @@ p {
 .header-content .social-media img:hover {
   /*hoover sendo feito na tag img*/
   opacity: 0.5;
-}
-
-.dash {
-  border-bottom: 4px solid #f2f2f2f2;
-  padding-bottom: 3rem;
-  margin-bottom: 3rem;
 }
 
 .about-content {
@@ -164,7 +164,7 @@ p {
   border-radius: 1rem;
   border: 1px solid #6c63ff;
   width: 50%;
-  box-sizing: border-box;
+  box-sizing: border-box; /*corrige o problema do padding aumentar o tamanho do input*/
 }
 
 .text-message {
