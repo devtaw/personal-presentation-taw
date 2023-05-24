@@ -2,6 +2,9 @@
 
 Projeto individual “Quem não é visto, não é lembrado” desenvolvido durante o “Módulo 1 - Introdução ao front-end e criação de hábitos” do curso de formação “WebDev Full Stack JavaScript” da Resilia Educação em parceria com o programa Códigos do Amanhã da EBANX. O projeto consiste no desenvolvimento de uma one page website utilizando HTML e CSS. O conteúdo da página é uma apresentação pessoal com três seções: “Sobre”, “Interesses” e “Contato”.
 
+Link: https://devtaw.github.io/personal-presentation-taw/
+
+<hr>
 ## ➡️ Fonte utilizada no projeto:
 
 <img src="images/font-family.png" width="500" />
