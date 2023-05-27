@@ -24,7 +24,7 @@
   <tr>
     <td align="center">
       <a href="#">
-        <img src="images/profile-picture.png" width="100px;" alt="Foto da Roxane no GitHub"/><br>
+        <img src="images/profile-picture.png" width="100px;" alt="Foto de perfil"/><br>
         <sub>
           <b>Tawany Simões (Taw)</b>
         </sub>
